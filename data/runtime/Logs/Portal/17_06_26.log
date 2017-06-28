@@ -1,0 +1,207 @@
+[ 2017-06-26T15:12:32+08:00 ] 127.0.0.1 /index.php/AdminPost/add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000211s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000422s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000175s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.000482s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.000523s ]
+SQL: SHOW COLUMNS FROM `yw_users` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `yw_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yw_posts` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `yw_terms` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `yw_term_relationships` [ RunTime:0.0009s ]
+SQL: INSERT INTO `yw_posts` (`post_title`,`post_keywords`,`post_source`,`post_excerpt`,`post_date`,`post_status`,`istop`,`recommended`,`post_content`,`post_modified`,`post_author`,`smeta`) VALUES ('《生态旅游》04丨地球之肾 那些绝美而令人窒息的湿地','《生态旅游》04丨地球之肾 那些绝美而令人窒息的湿地','《生态旅游》04丨地球之肾 那些绝美而令人窒息的湿地','《生态旅游》04丨地球之肾 那些绝美而令人窒息的湿地','2017-06-26 15:12:10','1','0','0','<p><span style=\"color: rgb(51, 51, 51); font-family: &quot;microsoft yahei&quot;; font-size: 20px; text-align: center; background-color: rgb(255, 255, 255);\">《生态旅游》04丨地球之肾 那些绝美而令人窒息的湿地</span></p>','2017-06-26 15:12:32','1','{\"thumb\":\"\",\"template\":\"\"}') [ RunTime:0.0002s ]
+SQL: INSERT INTO `yw_term_relationships` (`term_id`,`object_id`) VALUES ('100','14') [ RunTime:0.0001s ]
+
+[ 2017-06-26T15:12:39+08:00 ] 127.0.0.1 /index.php?g=portal&m=AdminPost&a=copy&ids=14
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000331s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000108s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001086s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.000394s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.000440s ]
+SQL: SHOW COLUMNS FROM `yw_users` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `yw_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `yw_posts` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `yw_terms` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `yw_term_relationships` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `yw_terms` [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yw_terms` WHERE `term_id` = 100 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `post_keywords`,`post_source`,`post_content`,`post_title`,`post_excerpt`,`smeta` FROM `yw_posts` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `yw_posts` (`post_keywords`,`post_source`,`post_content`,`post_title`,`post_excerpt`,`smeta`,`post_author`,`post_date`,`post_modified`) VALUES ('《生态旅游》04丨地球之肾 那些绝美而令人窒息的湿地','《生态旅游》04丨地球之肾 那些绝美而令人窒息的湿地','<p><span style=\"color: rgb(51, 51, 51); font-family: &quot;microsoft yahei&quot;; font-size: 20px; text-align: center; background-color: rgb(255, 255, 255);\">《生态旅游》04丨地球之肾 那些绝美而令人窒息的湿地</span></p>','《生态旅游》04丨地球之肾 那些绝美而令人窒息的湿地','《生态旅游》04丨地球之肾 那些绝美而令人窒息的湿地','{\"thumb\":\"\",\"template\":\"\"}','1','2017-06-26 15:12:39','2017-06-26 15:12:39') [ RunTime:0.0002s ]
+SQL: INSERT INTO `yw_term_relationships` (`object_id`,`term_id`) VALUES ('15','100') [ RunTime:0.0002s ]
+
+[ 2017-06-26T15:12:40+08:00 ] 127.0.0.1 /index.php?g=portal&m=AdminPost&a=copy&ids=14
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000294s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000853s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.000275s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.000305s ]
+SQL: SHOW COLUMNS FROM `yw_users` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `yw_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yw_posts` [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `yw_terms` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `yw_term_relationships` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `yw_terms` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yw_terms` WHERE `term_id` = 100 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `post_keywords`,`post_source`,`post_content`,`post_title`,`post_excerpt`,`smeta` FROM `yw_posts` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `yw_posts` (`post_keywords`,`post_source`,`post_content`,`post_title`,`post_excerpt`,`smeta`,`post_author`,`post_date`,`post_modified`) VALUES ('《生态旅游》04丨地球之肾 那些绝美而令人窒息的湿地','《生态旅游》04丨地球之肾 那些绝美而令人窒息的湿地','<p><span style=\"color: rgb(51, 51, 51); font-family: &quot;microsoft yahei&quot;; font-size: 20px; text-align: center; background-color: rgb(255, 255, 255);\">《生态旅游》04丨地球之肾 那些绝美而令人窒息的湿地</span></p>','《生态旅游》04丨地球之肾 那些绝美而令人窒息的湿地','《生态旅游》04丨地球之肾 那些绝美而令人窒息的湿地','{\"thumb\":\"\",\"template\":\"\"}','1','2017-06-26 15:12:40','2017-06-26 15:12:40') [ RunTime:0.0002s ]
+SQL: INSERT INTO `yw_term_relationships` (`object_id`,`term_id`) VALUES ('16','100') [ RunTime:0.0001s ]
+
+[ 2017-06-26T15:12:45+08:00 ] 127.0.0.1 /index.php?g=portal&m=AdminPost&a=copy&ids=14
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001234s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000447s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000106s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002374s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.000458s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.000509s ]
+SQL: SHOW COLUMNS FROM `yw_users` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `yw_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `yw_posts` [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `yw_terms` [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `yw_term_relationships` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `yw_terms` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yw_terms` WHERE `term_id` = 100 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `post_keywords`,`post_source`,`post_content`,`post_title`,`post_excerpt`,`smeta` FROM `yw_posts` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `yw_posts` (`post_keywords`,`post_source`,`post_content`,`post_title`,`post_excerpt`,`smeta`,`post_author`,`post_date`,`post_modified`) VALUES ('《生态旅游》04丨地球之肾 那些绝美而令人窒息的湿地','《生态旅游》04丨地球之肾 那些绝美而令人窒息的湿地','<p><span style=\"color: rgb(51, 51, 51); font-family: &quot;microsoft yahei&quot;; font-size: 20px; text-align: center; background-color: rgb(255, 255, 255);\">《生态旅游》04丨地球之肾 那些绝美而令人窒息的湿地</span></p>','《生态旅游》04丨地球之肾 那些绝美而令人窒息的湿地','《生态旅游》04丨地球之肾 那些绝美而令人窒息的湿地','{\"thumb\":\"\",\"template\":\"\"}','1','2017-06-26 15:12:45','2017-06-26 15:12:45') [ RunTime:0.0003s ]
+SQL: INSERT INTO `yw_term_relationships` (`object_id`,`term_id`) VALUES ('18','100') [ RunTime:0.0002s ]
+
+[ 2017-06-26T15:12:46+08:00 ] 127.0.0.1 /index.php?g=portal&m=AdminPost&a=copy&ids=14
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000430s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001193s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.000367s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.000412s ]
+SQL: SHOW COLUMNS FROM `yw_users` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `yw_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yw_posts` [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `yw_terms` [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `yw_term_relationships` [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `yw_terms` [ RunTime:0.0035s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yw_terms` WHERE `term_id` = 100 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `post_keywords`,`post_source`,`post_content`,`post_title`,`post_excerpt`,`smeta` FROM `yw_posts` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `yw_posts` (`post_keywords`,`post_source`,`post_content`,`post_title`,`post_excerpt`,`smeta`,`post_author`,`post_date`,`post_modified`) VALUES ('《生态旅游》04丨地球之肾 那些绝美而令人窒息的湿地','《生态旅游》04丨地球之肾 那些绝美而令人窒息的湿地','<p><span style=\"color: rgb(51, 51, 51); font-family: &quot;microsoft yahei&quot;; font-size: 20px; text-align: center; background-color: rgb(255, 255, 255);\">《生态旅游》04丨地球之肾 那些绝美而令人窒息的湿地</span></p>','《生态旅游》04丨地球之肾 那些绝美而令人窒息的湿地','《生态旅游》04丨地球之肾 那些绝美而令人窒息的湿地','{\"thumb\":\"\",\"template\":\"\"}','1','2017-06-26 15:12:46','2017-06-26 15:12:46') [ RunTime:0.0006s ]
+SQL: INSERT INTO `yw_term_relationships` (`object_id`,`term_id`) VALUES ('19','100') [ RunTime:0.0009s ]
+
+[ 2017-06-26T15:12:47+08:00 ] 127.0.0.1 /index.php?g=portal&m=AdminPost&a=copy&ids=14
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000381s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000105s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001059s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.000444s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.000496s ]
+SQL: SHOW COLUMNS FROM `yw_users` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `yw_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yw_posts` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `yw_terms` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `yw_term_relationships` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `yw_terms` [ RunTime:0.0032s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yw_terms` WHERE `term_id` = 100 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `post_keywords`,`post_source`,`post_content`,`post_title`,`post_excerpt`,`smeta` FROM `yw_posts` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0011s ]
+SQL: INSERT INTO `yw_posts` (`post_keywords`,`post_source`,`post_content`,`post_title`,`post_excerpt`,`smeta`,`post_author`,`post_date`,`post_modified`) VALUES ('《生态旅游》04丨地球之肾 那些绝美而令人窒息的湿地','《生态旅游》04丨地球之肾 那些绝美而令人窒息的湿地','<p><span style=\"color: rgb(51, 51, 51); font-family: &quot;microsoft yahei&quot;; font-size: 20px; text-align: center; background-color: rgb(255, 255, 255);\">《生态旅游》04丨地球之肾 那些绝美而令人窒息的湿地</span></p>','《生态旅游》04丨地球之肾 那些绝美而令人窒息的湿地','《生态旅游》04丨地球之肾 那些绝美而令人窒息的湿地','{\"thumb\":\"\",\"template\":\"\"}','1','2017-06-26 15:12:47','2017-06-26 15:12:47') [ RunTime:0.0004s ]
+SQL: INSERT INTO `yw_term_relationships` (`object_id`,`term_id`) VALUES ('20','100') [ RunTime:0.0002s ]
+
+[ 2017-06-26T15:12:48+08:00 ] 127.0.0.1 /index.php?g=portal&m=AdminPost&a=copy&ids=14
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000328s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000093s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001023s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.000449s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.000492s ]
+SQL: SHOW COLUMNS FROM `yw_users` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `yw_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yw_posts` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `yw_terms` [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `yw_term_relationships` [ RunTime:0.0035s ]
+SQL: SHOW COLUMNS FROM `yw_terms` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yw_terms` WHERE `term_id` = 100 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `post_keywords`,`post_source`,`post_content`,`post_title`,`post_excerpt`,`smeta` FROM `yw_posts` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `yw_posts` (`post_keywords`,`post_source`,`post_content`,`post_title`,`post_excerpt`,`smeta`,`post_author`,`post_date`,`post_modified`) VALUES ('《生态旅游》04丨地球之肾 那些绝美而令人窒息的湿地','《生态旅游》04丨地球之肾 那些绝美而令人窒息的湿地','<p><span style=\"color: rgb(51, 51, 51); font-family: &quot;microsoft yahei&quot;; font-size: 20px; text-align: center; background-color: rgb(255, 255, 255);\">《生态旅游》04丨地球之肾 那些绝美而令人窒息的湿地</span></p>','《生态旅游》04丨地球之肾 那些绝美而令人窒息的湿地','《生态旅游》04丨地球之肾 那些绝美而令人窒息的湿地','{\"thumb\":\"\",\"template\":\"\"}','1','2017-06-26 15:12:48','2017-06-26 15:12:48') [ RunTime:0.0010s ]
+SQL: INSERT INTO `yw_term_relationships` (`object_id`,`term_id`) VALUES ('21','100') [ RunTime:0.0004s ]
+
+[ 2017-06-26T15:12:49+08:00 ] 127.0.0.1 /index.php?g=portal&m=AdminPost&a=copy&ids=14
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000745s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001321s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002670s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.000745s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.000789s ]
+SQL: SHOW COLUMNS FROM `yw_users` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `yw_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yw_posts` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `yw_terms` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `yw_term_relationships` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `yw_terms` [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yw_terms` WHERE `term_id` = 100 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `post_keywords`,`post_source`,`post_content`,`post_title`,`post_excerpt`,`smeta` FROM `yw_posts` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `yw_posts` (`post_keywords`,`post_source`,`post_content`,`post_title`,`post_excerpt`,`smeta`,`post_author`,`post_date`,`post_modified`) VALUES ('《生态旅游》04丨地球之肾 那些绝美而令人窒息的湿地','《生态旅游》04丨地球之肾 那些绝美而令人窒息的湿地','<p><span style=\"color: rgb(51, 51, 51); font-family: &quot;microsoft yahei&quot;; font-size: 20px; text-align: center; background-color: rgb(255, 255, 255);\">《生态旅游》04丨地球之肾 那些绝美而令人窒息的湿地</span></p>','《生态旅游》04丨地球之肾 那些绝美而令人窒息的湿地','《生态旅游》04丨地球之肾 那些绝美而令人窒息的湿地','{\"thumb\":\"\",\"template\":\"\"}','1','2017-06-26 15:12:49','2017-06-26 15:12:49') [ RunTime:0.0003s ]
+SQL: INSERT INTO `yw_term_relationships` (`object_id`,`term_id`) VALUES ('22','100') [ RunTime:0.0002s ]
+
+[ 2017-06-26T15:12:50+08:00 ] 127.0.0.1 /index.php?g=portal&m=AdminPost&a=copy&ids=14
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002286s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003546s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.000514s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.000564s ]
+SQL: SHOW COLUMNS FROM `yw_users` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `yw_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yw_posts` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `yw_terms` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `yw_term_relationships` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `yw_terms` [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yw_terms` WHERE `term_id` = 100 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `post_keywords`,`post_source`,`post_content`,`post_title`,`post_excerpt`,`smeta` FROM `yw_posts` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `yw_posts` (`post_keywords`,`post_source`,`post_content`,`post_title`,`post_excerpt`,`smeta`,`post_author`,`post_date`,`post_modified`) VALUES ('《生态旅游》04丨地球之肾 那些绝美而令人窒息的湿地','《生态旅游》04丨地球之肾 那些绝美而令人窒息的湿地','<p><span style=\"color: rgb(51, 51, 51); font-family: &quot;microsoft yahei&quot;; font-size: 20px; text-align: center; background-color: rgb(255, 255, 255);\">《生态旅游》04丨地球之肾 那些绝美而令人窒息的湿地</span></p>','《生态旅游》04丨地球之肾 那些绝美而令人窒息的湿地','《生态旅游》04丨地球之肾 那些绝美而令人窒息的湿地','{\"thumb\":\"\",\"template\":\"\"}','1','2017-06-26 15:12:50','2017-06-26 15:12:50') [ RunTime:0.0003s ]
+SQL: INSERT INTO `yw_term_relationships` (`object_id`,`term_id`) VALUES ('23','100') [ RunTime:0.0001s ]
+
+[ 2017-06-26T15:32:31+08:00 ] 127.0.0.1 /
+ERR: syntax error, unexpected ':', expecting ',' or ')'
+
+[ 2017-06-26T15:56:55+08:00 ] 127.0.0.1 /themes/simplebootx/Public/assets/simpleboot/font-awesome/4.4.0/css/bootstrap.css
+ERR: 无法加载控制器:Themes
+
+[ 2017-06-26T15:58:30+08:00 ] 127.0.0.1 /themes/simplebootx/Public/assets/simpleboot/font-awesome/4.4.0/css/bootstrap.css
+ERR: 无法加载控制器:Themes
+
+[ 2017-06-26T15:58:55+08:00 ] 127.0.0.1 /themes/simplebootx/Public/assets/simpleboot/font-awesome/4.4.0/css/bootstrap.css
+ERR: 无法加载控制器:Themes
+
+[ 2017-06-26T16:00:13+08:00 ] 127.0.0.1 /themes/simplebootx/Public/assets/simpleboot/font-awesome/4.4.0/css/bootstrap.css
+ERR: 无法加载控制器:Themes
+
+[ 2017-06-26T16:04:16+08:00 ] 127.0.0.1 /themes/simplebootx/Public/assets/simpleboot/bootstrap/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2017-06-26T16:04:56+08:00 ] 127.0.0.1 /themes/simplebootx/Public/assets/simpleboot/bootstrap/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2017-06-26T16:07:08+08:00 ] 127.0.0.1 /themes/simplebootx/Public/assets/simpleboot/bootstrap/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2017-06-26T16:07:17+08:00 ] 127.0.0.1 /themes/simplebootx/Public/assets/simpleboot/bootstrap/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2017-06-26T16:30:19+08:00 ] 127.0.0.1 /themes/simplebootx/Public/assets/simpleboot/bootstrap/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+

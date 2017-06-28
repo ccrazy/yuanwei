@@ -1,0 +1,20 @@
+[ 2017-06-26T14:41:21+08:00 ] 127.0.0.1 /index.php/Admin/setting/site_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000354s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000896s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.000306s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.000328s ]
+SQL: SHOW COLUMNS FROM `yw_users` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `yw_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `yw_options` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `yw_options` WHERE ( option_name='site_options' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `yw_options` SET `option_id`='6',`option_name`='site_options',`option_value`='{\"site_name\":\"\\u6b66\\u6c49\\u6e90\\u5473\\u7f51\\u7edc\\u79d1\\u6280\\u6709\\u9650\\u516c\\u53f8\",\"site_admin_url_password\":\"\",\"site_tpl\":\"simplebootx\",\"site_adminstyle\":\"flat\",\"site_icp\":\"\",\"site_admin_email\":\"1@2.com\",\"site_tongji\":\"\",\"site_copyright\":\"\",\"site_seo_title\":\"\\u6e90\\u5473\\u79d1\\u6280\\u53ca\",\"site_seo_keywords\":\"\\u6e90\\u5473\\u79d1\\u6280\\uff0c\\u751f\\u6001\\u8bbe\\u8ba1\",\"site_seo_description\":\"\\u6e90\\u5473\\u79d1\\u6280\\u3001\\u751f\\u6001\\u56ed\\u6797\",\"urlmode\":\"1\",\"html_suffix\":\"\",\"comment_time_interval\":\"60\"}' WHERE ( option_name='site_options' ) [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `yw_options` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `yw_options` WHERE ( option_name='cmf_settings' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `yw_options` SET `option_name`='cmf_settings',`option_value`='{\"banned_usernames\":\"\"}' WHERE ( option_name='cmf_settings' ) [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yw_options` WHERE `option_name` = 'cdn_settings' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `yw_options` SET `option_value`='{\"cdn_static_root\":\"\"}' WHERE `option_name` = 'cdn_settings' [ RunTime:0.0002s ]
+
